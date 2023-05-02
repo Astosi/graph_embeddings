@@ -11,8 +11,6 @@ from enums.Category import Category
 from enums.Hyperparameters import Hyperparameters
 import pandas as pd
 
-
-
 logger = get_logger(__name__)
 
 
@@ -35,7 +33,7 @@ def get_dataset(walks, vocabulary_len, hparams):
     return dataset
 
 
-def generate_embeddings(house_id , x: float, y: float, address: str, province: str, category: Category,
+def generate_embeddings(house_id, x: float, y: float, address: str, province: str, category: Category,
                         hparams: Hyperparameters):
 
     logger.info(f"Generating embeddings for {house_id} in {province} for category: {category.name}")
@@ -56,6 +54,7 @@ def generate_embeddings(house_id , x: float, y: float, address: str, province: s
     # Check if there's a pre-existing embedding for the house
     logger.info(f"Checking for pre-existing embedding for {house_id}")
     embedding = get_embeddings(house_id=house_id)
+
     if embedding is not None and embedding.all():
         logger.info(f"{house_id} already has an embedding. Setting and skipping...")
         embedding_df[embedding_col] = embedding
@@ -66,7 +65,8 @@ def generate_embeddings(house_id , x: float, y: float, address: str, province: s
 
     # Generate a graph from the house's location and nearby points of interest
     logger.info(f"Generating graph for {house_id}")
-    the_graph = get_house_graph(house=house.values, pois_graph=pois_graph, pois_near_by=pois_near_by.values, category=category)
+    the_graph = get_house_graph(house=house.values, pois_graph=pois_graph,
+                                pois_near_by=pois_near_by.values, category=category)
 
     ########################################################################
     # Create a vocabulary for the graph and generate random walks on it

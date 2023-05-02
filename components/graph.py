@@ -8,8 +8,8 @@ from tqdm import tqdm
 import concurrent.futures
 import numpy as np
 
-from gsn.components.logs.Logger import get_logger
-from gsn.enums.Category import Category
+from components.logs.Logger import get_logger
+from enums.Category import Category
 
 logger = get_logger(__name__)
 
@@ -45,7 +45,7 @@ def create_edges(arr1, arr2, dist, graph=nx.Graph()):
             distances = np.array(
                 list(executor.map(calculate_dist, [(data_point_1[6], data_point_2[6]) for data_point_2 in arr2])))
 
-            #make zero values max
+            # make zero values max
             distances[distances == 0] = np.max(distances) + 1
 
             # Find the indices of the data points that are within the minimum distance
@@ -60,7 +60,6 @@ def create_edges(arr1, arr2, dist, graph=nx.Graph()):
                                f'Data point ID: {dp2_id}\n'
                                f'Distance: {distances[index]}')
 
-
             for index in indices:
                 dp2 = arr2[index]
                 dp2_id = dp2[0]
@@ -71,7 +70,8 @@ def create_edges(arr1, arr2, dist, graph=nx.Graph()):
 
     return graph
 
-graphs_dir = "/home/astosi/UH/GraphThings/gsn/data"
+
+graphs_dir = "/home/astosi/PycharmProjects/graph_embeddings/data"
 
 
 def get_poi_graph(province, category):
