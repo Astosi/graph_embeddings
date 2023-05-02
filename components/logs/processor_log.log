@@ -1,0 +1,1139 @@
+[37m2023-02-22 11:22:57[0m - [92mINFO[0m - Inside the post method for URL: https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/session/start
+[37m2023-02-22 11:23:00[0m - [92mINFO[0m - Status code: 201. Waiting 3 seconds.
+[37m2023-02-22 11:51:11[0m - [92mINFO[0m - Woz-API is initializing...
+[37m2023-02-22 11:51:11[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 11:51:11[0m - [92mINFO[0m - 
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                         [0m |
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_woz_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_woz_price_1', 'from_api_woz_price_2', 'from_api_woz_price_3']                                    [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_woz_id']                                                                                         [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(2, 1)                                                                                                      [0m|
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 11:51:11[0m - [92mINFO[0m - Validating data...
+[37m2023-02-22 11:51:11[0m - [92mINFO[0m - from_api_woz_id has no Nan values!
+[37m2023-02-22 11:51:11[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_woz_price_1', 'from_api_woz_price_2', 'from_api_woz_price_3']
+[37m2023-02-22 11:51:11[0m - [92mINFO[0m - 2 missing indexes.
+[37m2023-02-22 11:51:11[0m - [92mINFO[0m - Woz data generator is running, 2 rows will be processed
+[37m2023-02-22 11:51:11[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
+[37m2023-02-22 11:51:11[0m - [92mINFO[0m - Inside the post method for URL: https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/session/start
+[37m2023-02-22 11:51:14[0m - [92mINFO[0m - Status code: 201. Waiting 3 seconds.
+[37m2023-02-22 11:51:17[0m - [92mINFO[0m - https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/wozwaarde/nummeraanduiding/0358200019050336 has been found in the cache!
+[37m2023-02-22 11:51:17[0m - [92mINFO[0m - https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/wozwaarde/nummeraanduiding/0358200018939139 has been found in the cache!
+[37m2023-02-22 11:51:17[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
+[37m2023-02-22 11:51:17[0m - [92mINFO[0m - The 'from_api_woz_price_1' column has no missing values.
+[37m2023-02-22 11:51:17[0m - [92mINFO[0m - The 'from_api_woz_price_2' column has no missing values.
+[37m2023-02-22 11:51:17[0m - [92mINFO[0m - The 'from_api_woz_price_3' column has no missing values.
+[37m2023-02-22 11:51:17[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_woz_api_results.csv
+[37m2023-02-22 11:51:17[0m - [92mINFO[0m - run executed in 5.744240 seconds
+[37m2023-02-22 11:51:17[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
+[37m2023-02-22 12:05:52[0m - [92mINFO[0m - Woz-API is initializing...
+[37m2023-02-22 12:05:52[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 12:05:52[0m - [92mINFO[0m - 
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                         [0m |
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_woz_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_woz_price_1', 'from_api_woz_price_2', 'from_api_woz_price_3']                                    [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_woz_id']                                                                                         [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(2, 1)                                                                                                      [0m|
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 12:05:52[0m - [92mINFO[0m - Validating data...
+[37m2023-02-22 12:05:52[0m - [92mINFO[0m - from_api_woz_id has no Nan values!
+[37m2023-02-22 12:05:52[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_woz_price_1', 'from_api_woz_price_2', 'from_api_woz_price_3']
+[37m2023-02-22 12:05:52[0m - [92mINFO[0m - 2 missing indexes.
+[37m2023-02-22 12:05:52[0m - [92mINFO[0m - Woz data generator is running, 2 rows will be processed
+[37m2023-02-22 12:05:52[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
+[37m2023-02-22 12:05:52[0m - [92mINFO[0m - Inside the post method for URL: https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/session/start
+[37m2023-02-22 12:05:55[0m - [92mINFO[0m - Status code: 201. Waiting 3 seconds.
+[37m2023-02-22 12:05:58[0m - [92mINFO[0m - https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/wozwaarde/nummeraanduiding/0358200019050336 has been found in the cache!
+[37m2023-02-22 12:05:58[0m - [92mINFO[0m - https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/wozwaarde/nummeraanduiding/0358200018939139 has been found in the cache!
+[37m2023-02-22 12:05:58[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
+[37m2023-02-22 12:05:58[0m - [92mINFO[0m - The 'from_api_woz_price_1' column has no missing values.
+[37m2023-02-22 12:05:58[0m - [92mINFO[0m - The 'from_api_woz_price_2' column has no missing values.
+[37m2023-02-22 12:05:58[0m - [92mINFO[0m - The 'from_api_woz_price_3' column has no missing values.
+[37m2023-02-22 12:05:58[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_woz_api_results.csv
+[37m2023-02-22 12:05:58[0m - [92mINFO[0m - 
+========================================
+Function 'run'
+----------------------------------------
+[PERFORMANCE] Executed in 5.667642 seconds
+[37m2023-02-22 12:05:58[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
+[37m2023-02-22 12:07:42[0m - [92mINFO[0m - Woz-API is initializing...
+[37m2023-02-22 12:07:42[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 12:07:42[0m - [92mINFO[0m - 
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                         [0m |
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_woz_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_woz_price_1', 'from_api_woz_price_2', 'from_api_woz_price_3']                                    [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_woz_id']                                                                                         [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(2, 1)                                                                                                      [0m|
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 12:07:42[0m - [92mINFO[0m - Validating data...
+[37m2023-02-22 12:07:42[0m - [92mINFO[0m - from_api_woz_id has no Nan values!
+[37m2023-02-22 12:07:42[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_woz_price_1', 'from_api_woz_price_2', 'from_api_woz_price_3']
+[37m2023-02-22 12:07:42[0m - [92mINFO[0m - 2 missing indexes.
+[37m2023-02-22 12:07:42[0m - [92mINFO[0m - Woz data generator is running, 2 rows will be processed
+[37m2023-02-22 12:07:42[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
+[37m2023-02-22 12:07:42[0m - [92mINFO[0m - Inside the post method for URL: https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/session/start
+[37m2023-02-22 12:07:45[0m - [92mINFO[0m - Status code: 201. Waiting 3 seconds.
+[37m2023-02-22 12:07:48[0m - [92mINFO[0m - https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/wozwaarde/nummeraanduiding/0358200019050336 has been found in the cache!
+[37m2023-02-22 12:07:48[0m - [92mINFO[0m - https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/wozwaarde/nummeraanduiding/0358200018939139 has been found in the cache!
+[37m2023-02-22 12:07:48[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
+[37m2023-02-22 12:07:48[0m - [92mINFO[0m - The 'from_api_woz_price_1' column has no missing values.
+[37m2023-02-22 12:07:48[0m - [92mINFO[0m - The 'from_api_woz_price_2' column has no missing values.
+[37m2023-02-22 12:07:48[0m - [92mINFO[0m - The 'from_api_woz_price_3' column has no missing values.
+[37m2023-02-22 12:07:48[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_woz_api_results.csv
+[37m2023-02-22 12:07:48[0m - [92mINFO[0m - 
+[1m========================================[0m
+[1mFunction 'run'[0m
+[1m----------------------------------------[0m
+[1m[34m[PERFORMANCE][0m Executed in [33m5.692784 seconds[0m
+[37m2023-02-22 12:07:48[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
+[37m2023-02-22 12:10:07[0m - [92mINFO[0m - Woz-API is initializing...
+[37m2023-02-22 12:10:07[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 12:10:07[0m - [92mINFO[0m - 
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                         [0m |
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_woz_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_woz_price_1', 'from_api_woz_price_2', 'from_api_woz_price_3']                                    [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_woz_id']                                                                                         [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(2, 1)                                                                                                      [0m|
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 12:10:07[0m - [92mINFO[0m - Validating data...
+[37m2023-02-22 12:10:07[0m - [92mINFO[0m - from_api_woz_id has no Nan values!
+[37m2023-02-22 12:10:07[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_woz_price_1', 'from_api_woz_price_2', 'from_api_woz_price_3']
+[37m2023-02-22 12:10:07[0m - [92mINFO[0m - 2 missing indexes.
+[37m2023-02-22 12:10:07[0m - [92mINFO[0m - Woz data generator is running, 2 rows will be processed
+[37m2023-02-22 12:10:07[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
+[37m2023-02-22 12:10:07[0m - [92mINFO[0m - Inside the post method for URL: https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/session/start
+[37m2023-02-22 12:10:10[0m - [92mINFO[0m - Status code: 201. Waiting 3 seconds.
+[37m2023-02-22 12:10:13[0m - [92mINFO[0m - https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/wozwaarde/nummeraanduiding/0358200019050336 has been found in the cache!
+[37m2023-02-22 12:10:13[0m - [92mINFO[0m - https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/wozwaarde/nummeraanduiding/0358200018939139 has been found in the cache!
+[37m2023-02-22 12:10:13[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
+[37m2023-02-22 12:10:13[0m - [92mINFO[0m - The 'from_api_woz_price_1' column has no missing values.
+[37m2023-02-22 12:10:13[0m - [92mINFO[0m - The 'from_api_woz_price_2' column has no missing values.
+[37m2023-02-22 12:10:13[0m - [92mINFO[0m - The 'from_api_woz_price_3' column has no missing values.
+[37m2023-02-22 12:10:13[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_woz_api_results.csv
+[37m2023-02-22 12:10:13[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m5.660813 seconds[0m
+[37m2023-02-22 12:10:13[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - Geo-API is initializing...
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - 
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                         [0m |
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_geo_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_wijkcode', 'from_api_buurtcode', 'from_api_woz_id']                                              [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['postcode', 'address']                                                                                     [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(1, 5)                                                                                                      [0m|
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - postcode has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - address has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 15:27:45[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_wijkcode', 'from_api_buurtcode', 'from_api_woz_id']
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - 1 missing indexes.
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - GeoDataGenerator is running, 1 rows will be processed
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_geo.csv
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - https://geodata.nationaalgeoregister.nl/locatieserver/v3/free?q=Nordiawerf 2 1431CK has been found in the cache!
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_geo.csv
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - The 'from_api_wijkcode' column has no missing values.
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - The 'from_api_buurtcode' column has no missing values.
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - The 'from_api_woz_id' column has no missing values.
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_geo_api_results.csv
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m0.019886 seconds[0m
+[37m2023-02-22 15:27:45[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_geo.csv
+[37m2023-02-22 15:38:18[0m - [92mINFO[0m - Geo-API is initializing...
+[37m2023-02-22 15:38:18[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 15:38:18[0m - [92mINFO[0m - 
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                         [0m |
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_geo_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_wijkcode', 'from_api_buurtcode', 'from_api_woz_id']                                              [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['postcode', 'address']                                                                                     [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(1, 5)                                                                                                      [0m|
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 15:38:18[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 15:38:18[0m - [92mINFO[0m - postcode has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 15:38:18[0m - [92mINFO[0m - address has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 15:38:18[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_wijkcode', 'from_api_buurtcode', 'from_api_woz_id']
+[37m2023-02-22 15:38:18[0m - [92mINFO[0m - 1 missing indexes.
+[37m2023-02-22 15:38:18[0m - [92mINFO[0m - GeoDataGenerator is running, 1 rows will be processed
+[37m2023-02-22 15:38:18[0m - [92mINFO[0m - Inside the get method for URL: https://geodata.nationaalgeoregister.nl/locatieserver/v3/free?q=Nordiawerf 2 1431
+[37m2023-02-22 15:38:19[0m - [92mINFO[0m - Status code: 200. Waiting 3 seconds.
+[37m2023-02-22 15:38:22[0m - [92mINFO[0m - Response cached for URL: https://geodata.nationaalgeoregister.nl/locatieserver/v3/free?q=Nordiawerf 2 1431
+[37m2023-02-22 15:38:22[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_geo.csv
+[37m2023-02-22 15:38:22[0m - [92mINFO[0m - The 'from_api_wijkcode' column has no missing values.
+[37m2023-02-22 15:38:22[0m - [92mINFO[0m - The 'from_api_buurtcode' column has no missing values.
+[37m2023-02-22 15:38:22[0m - [92mINFO[0m - The 'from_api_woz_id' column has no missing values.
+[37m2023-02-22 15:38:22[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_geo_api_results.csv
+[37m2023-02-22 15:38:22[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m3.271837 seconds[0m
+[37m2023-02-22 15:38:22[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_geo.csv
+[37m2023-02-22 15:38:55[0m - [92mINFO[0m - Geo-API is initializing...
+[37m2023-02-22 15:38:55[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 15:38:55[0m - [92mINFO[0m - 
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                         [0m |
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_geo_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_wijkcode', 'from_api_buurtcode', 'from_api_woz_id']                                              [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['postcode', 'address']                                                                                     [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(1, 5)                                                                                                      [0m|
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 15:38:55[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 15:38:55[0m - [92mINFO[0m - postcode has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 15:38:55[0m - [92mINFO[0m - address has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 15:38:55[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_wijkcode', 'from_api_buurtcode', 'from_api_woz_id']
+[37m2023-02-22 15:38:55[0m - [92mINFO[0m - 1 missing indexes.
+[37m2023-02-22 15:38:55[0m - [92mINFO[0m - GeoDataGenerator is running, 1 rows will be processed
+[37m2023-02-22 15:38:55[0m - [92mINFO[0m - Inside the get method for URL: https://geodata.nationaalgeoregister.nl/locatieserver/v3/free?q=Nordiawerf 2 1431
+[37m2023-02-22 15:38:55[0m - [92mINFO[0m - Status code: 200. Waiting 3 seconds.
+[37m2023-02-22 15:38:58[0m - [92mINFO[0m - Response cached for URL: https://geodata.nationaalgeoregister.nl/locatieserver/v3/free?q=Nordiawerf 2 1431
+[37m2023-02-22 15:38:58[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_geo.csv
+[37m2023-02-22 15:38:58[0m - [92mINFO[0m - The 'from_api_wijkcode' column has no missing values.
+[37m2023-02-22 15:38:58[0m - [92mINFO[0m - The 'from_api_buurtcode' column has no missing values.
+[37m2023-02-22 15:38:58[0m - [92mINFO[0m - The 'from_api_woz_id' column has no missing values.
+[37m2023-02-22 15:38:58[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_geo_api_results.csv
+[37m2023-02-22 15:38:58[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m3.628367 seconds[0m
+[37m2023-02-22 15:38:58[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_geo.csv
+[37m2023-02-22 16:16:12[0m - [92mINFO[0m - Geo-API is initializing...
+[37m2023-02-22 16:16:12[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:16:12[0m - [92mINFO[0m - 
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                         [0m |
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_geo_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_wijkcode', 'from_api_buurtcode', 'from_api_woz_id']                                              [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['postcode', 'address']                                                                                     [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(1, 5)                                                                                                      [0m|
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:16:12[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:16:12[0m - [92mINFO[0m - postcode has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:16:12[0m - [92mINFO[0m - address has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:16:12[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_wijkcode', 'from_api_buurtcode', 'from_api_woz_id']
+[37m2023-02-22 16:16:12[0m - [92mINFO[0m - 1 missing indexes.
+[37m2023-02-22 16:16:12[0m - [92mINFO[0m - GeoDataGenerator is running, 1 rows will be processed
+[37m2023-02-22 16:16:12[0m - [92mINFO[0m - Inside the get method for URL: https://geodata.nationaalgeoregister.nl/locatieserver/v3/free?q=Nordiawerf 2 1431
+[37m2023-02-22 16:16:12[0m - [92mINFO[0m - Status code: 200. Waiting 3 seconds.
+[37m2023-02-22 16:16:15[0m - [92mINFO[0m - Response cached for URL: https://geodata.nationaalgeoregister.nl/locatieserver/v3/free?q=Nordiawerf 2 1431
+[37m2023-02-22 16:16:15[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_geo.csv
+[37m2023-02-22 16:16:15[0m - [92mINFO[0m - The 'from_api_wijkcode' column has no missing values.
+[37m2023-02-22 16:16:15[0m - [92mINFO[0m - The 'from_api_buurtcode' column has no missing values.
+[37m2023-02-22 16:16:15[0m - [92mINFO[0m - The 'from_api_woz_id' column has no missing values.
+[37m2023-02-22 16:16:15[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_geo_api_results.csv
+[37m2023-02-22 16:16:15[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m3.254275 seconds[0m
+[37m2023-02-22 16:16:15[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_geo.csv
+[37m2023-02-22 16:23:54[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:23:54[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:23:54[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:23:54[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:23:54[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:23:54[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:23:54[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:23:54[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:26:06[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:26:06[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:26:06[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:26:06[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:26:06[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:26:06[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:26:06[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:26:06[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:26:26[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:26:26[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:26:26[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:26:26[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:26:26[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:26:26[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:26:26[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:26:26[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:26:43[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:26:43[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:26:43[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:26:43[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:26:43[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:26:43[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:26:43[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:26:43[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:26:56[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:26:56[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:26:56[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:26:56[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:26:56[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:26:56[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:26:56[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:26:56[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:27:54[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:27:54[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:27:54[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:27:54[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:27:54[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:27:54[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:27:54[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:27:54[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:28:05[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:28:05[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:28:05[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:28:05[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:28:05[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:28:05[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:28:05[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:28:05[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:28:21[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:28:21[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:28:21[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:28:21[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:28:21[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:28:21[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:28:21[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:28:21[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:28:21[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:28:21[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:28:23[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:28:23[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:28:23[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:28:25[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:28:25[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:28:25[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:28:27[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:28:27[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:28:27[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:28:27[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 16:28:27[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 16:28:27[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 16:28:27[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m6.251811 seconds[0m
+[37m2023-02-22 16:28:27[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:28:32[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:28:32[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:28:32[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:28:32[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:28:32[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:28:32[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:28:32[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:28:32[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:28:32[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:28:32[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:28:32[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:28:34[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:28:34[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:28:34[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:28:36[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:28:36[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:28:36[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:28:38[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:28:38[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:28:38[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:28:38[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 16:28:38[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 16:28:38[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 16:28:38[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m6.241788 seconds[0m
+[37m2023-02-22 16:28:38[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:29:30[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:29:30[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:29:30[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:29:30[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:29:30[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:29:30[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:29:30[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:29:30[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:29:30[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:29:30[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:30[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:29:32[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:32[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:33[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:29:35[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:35[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:35[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:29:37[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:37[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:29:37[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:29:37[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 16:29:37[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 16:29:37[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 16:29:37[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m6.248097 seconds[0m
+[37m2023-02-22 16:29:37[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:29:44[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:29:44[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:29:44[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:29:44[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:29:44[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:29:44[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:29:44[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:29:44[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:29:44[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:29:44[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:44[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:29:46[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:46[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:46[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:29:48[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:48[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:48[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:29:50[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:50[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:29:50[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:29:50[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 16:29:50[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 16:29:50[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 16:29:50[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m6.219670 seconds[0m
+[37m2023-02-22 16:29:50[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:29:56[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:29:56[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:29:56[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:29:56[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:29:56[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:29:56[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:29:56[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:29:56[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:29:56[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:29:56[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:56[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:29:58[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:58[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:29:58[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:30:00[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:30:00[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:30:00[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:30:02[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:30:02[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:30:02[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:30:02[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 16:30:02[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 16:30:02[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 16:30:02[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m6.216065 seconds[0m
+[37m2023-02-22 16:30:02[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:32:21[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:32:21[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:32:21[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:32:21[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:32:21[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:32:21[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:32:21[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:32:21[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:32:21[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:32:21[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:32:21[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:32:23[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:32:23[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:32:23[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:32:25[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:32:25[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:32:25[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:32:27[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:32:27[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:32:27[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:32:27[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 16:32:27[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 16:32:27[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 16:32:27[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m6.253135 seconds[0m
+[37m2023-02-22 16:32:27[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:42:19[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:42:19[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:42:19[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:42:19[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:42:19[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:42:19[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:42:19[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:42:19[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:42:19[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:42:19[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:42:19[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:42:21[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:42:21[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:42:21[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:42:23[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:42:23[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:42:23[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:42:25[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:42:25[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:42:25[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:42:25[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 16:42:25[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 16:42:25[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 16:42:25[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m6.259830 seconds[0m
+[37m2023-02-22 16:42:25[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:42:36[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:42:36[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:42:36[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:42:36[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:42:36[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:42:36[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:42:36[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:42:36[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:42:36[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:42:36[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:42:38[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:42:38[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:42:38[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:42:40[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:42:40[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:42:40[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:42:42[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:42:42[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:42:42[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:42:42[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 16:42:42[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 16:42:42[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 16:42:42[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m6.236855 seconds[0m
+[37m2023-02-22 16:42:42[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:46:45[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:46:45[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:46:45[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:46:45[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:46:45[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:46:45[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:46:45[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:46:45[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:46:45[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:46:45[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:46:46[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:46:48[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:46:48[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:46:48[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:46:50[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:46:50[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:46:50[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:46:52[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:46:52[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:46:52[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:46:52[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 16:46:52[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 16:46:52[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 16:46:52[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m6.274873 seconds[0m
+[37m2023-02-22 16:46:52[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:48:05[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:48:05[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:48:05[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:48:05[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:48:05[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:48:05[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:48:05[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:48:05[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:48:05[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:48:05[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:48:05[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:48:07[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:48:07[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:48:07[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:48:09[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:48:09[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:48:09[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:48:11[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:48:11[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:48:11[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:48:11[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 16:48:11[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 16:48:11[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 16:48:11[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m6.243063 seconds[0m
+[37m2023-02-22 16:48:11[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:48:25[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:48:25[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:48:25[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:48:25[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:48:25[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:48:25[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:48:25[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:48:25[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:48:25[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:48:25[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:48:25[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:48:27[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:48:27[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:48:27[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:48:29[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:48:29[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:48:29[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:48:31[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:48:31[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:48:31[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:48:31[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 16:48:31[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 16:48:31[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 16:48:31[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m6.225244 seconds[0m
+[37m2023-02-22 16:48:31[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:50:24[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:50:24[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:50:24[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:50:24[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:50:24[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:50:24[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:50:24[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:50:24[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:50:24[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:50:24[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:50:24[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:50:26[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:50:26[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:50:26[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:50:28[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:50:28[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:50:28[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:50:30[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:50:30[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:50:30[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:50:30[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 16:50:30[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 16:50:30[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 16:50:30[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m6.266076 seconds[0m
+[37m2023-02-22 16:50:30[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:52:53[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:52:53[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:52:53[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:52:53[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:52:53[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:52:53[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:52:53[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:52:53[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:52:53[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:52:53[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:52:55[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:52:55[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:52:55[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:52:57[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:52:57[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:52:57[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 16:52:59[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 16:52:59[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:52:59[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:52:59[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 16:52:59[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 16:52:59[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 16:52:59[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m6.244079 seconds[0m
+[37m2023-02-22 16:52:59[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:53:02[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - 0358010019050337 has been found in the cache!
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - 0358010018990421 has been found in the cache!
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - 0358010018951429 has been found in the cache!
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m0.012321 seconds[0m
+[37m2023-02-22 16:53:02[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 16:53:21[0m - [92mINFO[0m - Geo-API is initializing...
+[37m2023-02-22 16:53:21[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 16:53:21[0m - [92mINFO[0m - 
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                         [0m |
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_geo_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_wijkcode', 'from_api_buurtcode', 'from_api_woz_id']                                              [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['postcode', 'address']                                                                                     [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(1, 5)                                                                                                      [0m|
+	+-----------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 16:53:21[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 16:53:21[0m - [92mINFO[0m - postcode has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:53:21[0m - [92mINFO[0m - address has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 16:53:21[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_wijkcode', 'from_api_buurtcode', 'from_api_woz_id']
+[37m2023-02-22 16:53:21[0m - [92mINFO[0m - 1 missing indexes.
+[37m2023-02-22 16:53:21[0m - [92mINFO[0m - GeoDataGenerator is running, 1 rows will be processed
+[37m2023-02-22 16:53:21[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_geo.csv
+[37m2023-02-22 16:53:21[0m - [92mINFO[0m - Inside the get method for URL: https://geodata.nationaalgeoregister.nl/locatieserver/v3/free?q=Nordiawerf 2 1431
+[37m2023-02-22 16:53:21[0m - [92mINFO[0m - Status code: 200. Waiting 3 seconds.
+[37m2023-02-22 16:53:24[0m - [92mINFO[0m - Response cached for URL: https://geodata.nationaalgeoregister.nl/locatieserver/v3/free?q=Nordiawerf 2 1431
+[37m2023-02-22 16:53:24[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_geo.csv
+[37m2023-02-22 16:53:24[0m - [92mINFO[0m - The 'from_api_wijkcode' column has no missing values.
+[37m2023-02-22 16:53:24[0m - [92mINFO[0m - The 'from_api_buurtcode' column has no missing values.
+[37m2023-02-22 16:53:24[0m - [92mINFO[0m - The 'from_api_woz_id' column has no missing values.
+[37m2023-02-22 16:53:24[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_geo_api_results.csv
+[37m2023-02-22 16:53:24[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m3.262976 seconds[0m
+[37m2023-02-22 16:53:24[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_geo.csv
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 17:01:12[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - 0358010019050337 has been found in the cache!
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - 0358010018990421 has been found in the cache!
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - 0358010018951429 has been found in the cache!
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m0.010380 seconds[0m
+[37m2023-02-22 17:01:12[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 17:01:25[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 17:01:25[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 17:01:25[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 17:01:25[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 17:01:25[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 17:01:25[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 17:01:25[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 17:01:25[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 17:01:25[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 17:01:25[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 17:01:27[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 17:01:27[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 17:01:27[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 17:01:29[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 17:01:29[0m - [92mINFO[0m - Inside the post method for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 17:01:29[0m - [92mINFO[0m - Status code: 200. Waiting 2 seconds.
+[37m2023-02-22 17:01:31[0m - [92mINFO[0m - Response cached for URL: https://service.pdok.nl/lv/bag/wfs/v2_0?service=WFS
+[37m2023-02-22 17:01:31[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 17:01:31[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 17:01:31[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 17:01:31[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 17:01:31[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 17:01:31[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m6.246092 seconds[0m
+[37m2023-02-22 17:01:31[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - Pdok-API is initializing...
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - 
+	+--------------------------+
+	| [1;36;10m   Request Settings:    [0m |
+	+--------------------------+
+	| [1;38;10mMax attempt      [0m : [1;31;10m3    [0m|
+	| [1;38;10mWait duration    [0m : [1;31;10m3    [0m|
+	| [1;38;10mOverwrite option [0m : [1;31;10mFalse[0m|
+	+--------------------------+
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - 
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;36;10m                                                         API Parameters:                                                          [0m |
+	+------------------------------------------------------------------------------------------------------------------------------------+
+	| [1;38;10mFile path          [0m : [1;31;10m/home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv[0m|
+	| [1;38;10mColumns to generate[0m : [1;31;10m['from_api_surface', 'from_api_year_construction']                                                           [0m|
+	| [1;38;10mColumns to use     [0m : [1;31;10m['from_api_address_obj_id']                                                                                  [0m|
+	| [1;38;10mDataframe shape    [0m : [1;31;10m(3, 1)                                                                                                       [0m|
+	+------------------------------------------------------------------------------------------------------------------------------------+
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - Validating dataframe...
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - from_api_address_obj_id has no None values! Go for it! This is your day to shine.
+[37m2023-02-22 18:23:40[0m - [93mWARNING[0m - The following columns are missing in the DataFrame: ['from_api_surface', 'from_api_year_construction']
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - 3 missing indexes.
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - Pdok data generator is running, 3 rows will be processed
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - 0358010019050337 has been found in the cache!
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - 0358010018990421 has been found in the cache!
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - 0358010018951429 has been found in the cache!
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - The 'from_api_surface' column has no missing values.
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - The 'from_api_year_construction' column has no missing values.
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - Dataframe saved to file: /home/astosi/PycharmProjects/Processors/Components/api/../../data/byproducts_new/df_with_pdok_api_results.csv
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - [1m[34m[PERFORMANCE][0m Function 'run' executed in [33m0.012484 seconds[0m
+[37m2023-02-22 18:23:40[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_pdok.csv

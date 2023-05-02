@@ -1,0 +1,5 @@
+[37m2023-02-22 11:22:57[0m - [92mINFO[0m - Response cache loaded from file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
+[37m2023-02-22 11:23:03[0m - [92mINFO[0m - https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/wozwaarde/nummeraanduiding/0358200019050336 has been found in the cache!
+[37m2023-02-22 11:23:03[0m - [92mINFO[0m - https://www.wozwaardeloket.nl/wozwaardeloket-api/v1/wozwaarde/nummeraanduiding/0358200018939139 has been found in the cache!
+[37m2023-02-22 11:23:03[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
+[37m2023-02-22 11:23:03[0m - [92mINFO[0m - Response cache saved to file: /home/astosi/PycharmProjects/Processors/Components/api/data_adapters/../../../data/byproducts_new/response_cache_woz.csv
